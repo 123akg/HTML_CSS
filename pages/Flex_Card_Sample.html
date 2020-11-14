@@ -1,0 +1,75 @@
+<!doctype html>
+<title>God's Card Layout</title>
+<head><a href="http://127.0.0.1:5500/Photo%20Gallery/pages/Photo%20Gallery.html">Go to Photo Gallery</a></head>
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction:column;
+    max-height: 200vh;  
+  }
+  .card {
+    width: 200px;
+    margin: 100px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+</style>
+<main class="cards">
+  <article class="card">
+    <img src="../assets/Hanuman.jpg" alt="Hanuman Pic">
+    <div class="text">
+      <h3>Hanuman Ji</h3>
+      <p>Lord Hanuman is a Hindu god and divine vanara companion of the god Rama. Lord Hanuman is one of the central characters of the Hindu epic Ramayana. He is an ardent devotee of Rama and one of the chiranjeevis.</p>
+      <button><a href="https://en.wikipedia.org/wiki/Ganesha">Read More</a></button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Mahakal.jpg" alt="Mahakal Pic">
+    <div class="text">
+      <h3>Mahakal</h3>
+      <p>Mahakal :Lord Shiva, A name of the Lord of all times.</p>
+      <button><a href="https://en.wikipedia.org/wiki/Hanuman">Read More</a></button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Maa.jpg" alt="Maa Pic">
+    <div class="text">
+      <h3>Maa</h3>
+      <p>The Mythology centres around combating evils and demonic forces that threaten peace, prosperity, and Dharma the power of good over evil.</p>
+      <button><a href="https://en.wikipedia.org/wiki/Durga">Read More</a></button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Durgaa Maa.jpg" alt="Durgaa Maa Pic">
+    <div class="text">
+      <h3>Durgaa Maa</h3>
+      <p>Durgaa Maa is identified as the principal Hindu goddess of war, strength and protection.</p>
+      <button><a href="https://en.wikipedia.org/wiki/Durga">Read More</a></button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/Ganesh.jpg" alt="Ganesh Pic">
+    <div class="text">
+      <h3>Lord Ganesh</h3>
+      <p>Ganesh, also known as Ganapati and Vinayaka, is one of the best-known and most worshipped deities in the Hindu pantheon.</p>
+      <button><a href="https://en.wikipedia.org/wiki/Ganesha">Read More</a></button>
+    </div>
+  </article>
+</main>
+
+<footer>Copyright &copy; AKG 2020</footer>
